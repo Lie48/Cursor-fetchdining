@@ -1,0 +1,62 @@
+export const diningLocations = [
+  {
+    id: 1,
+    name: 'Starbucks',
+    description: 'Coffee, tea, and pastries',
+    image: require('../assets/starbucks-location.jpg'),
+    orders: 1247,
+    waitTime: '10-15 min',
+    category: 'Coffee',
+  },
+  {
+    id: 2,
+    name: 'Perk I',
+    description: 'Coffee',
+    image: require('../assets/perk-I.png'),
+    orders: 5,
+    waitTime: '10-15 min',
+    category: 'Coffee',
+  },
+  {
+    id: 3,
+    name: 'Asada',
+    description: 'Mexican cuisine',
+    image: require('../assets/Asada-location.jpg'),
+    orders: 342,
+    waitTime: '15-20 min',
+    category: 'Mexican',
+  },
+  {
+    id: 4,
+    name: 'Hanna Garden',
+    description: 'Fresh Salads',
+    image: require('../assets/HannaGarden.jpg'),
+    orders: 189,
+    waitTime: '12-18 min',
+    category: 'Asian',
+  },
+  {
+    id: 5,
+    name: 'Streets',
+    description: 'Street food and quick bites',
+    image: require('../assets/Streets-location.jpg'),
+    orders: 456,
+    waitTime: '8-12 min',
+    category: 'Fast Food',
+  },
+  {
+    id: 6,
+    name: 'Sushi Boss',
+    description: 'Fresh sushi and Japanese',
+    image: require('../assets/sushi boss location.png'),
+    orders: 623,
+    waitTime: '15-20 min',
+    category: 'Japanese',
+  },
+];
+
+export const lastOrder = {
+  location: 'Starbucks',
+  items: ['Caffè Latte', 'Butter Croissant'],
+  date: 'Today',
+};
